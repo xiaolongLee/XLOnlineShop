@@ -1,4 +1,10 @@
 platform:ios, '7.0'
 target 'XL_ChangMai' do
 pod 'AFNetworking', '~>3.2.0'
+pod 'MJRefresh'
+pod 'YYCache'
+pod 'pop'
+pod 'SDWebImage'
+pod 'Reachability'
+pod 'BaiduMapKit'
 end

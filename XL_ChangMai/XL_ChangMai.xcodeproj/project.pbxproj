@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		15E15888FDBEE60943633866 /* libPods-XL_ChangMai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9673D7226F8B7DE618C2464 /* libPods-XL_ChangMai.a */; };
+		315990C222CE4B770092668D /* CMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315990C122CE4B770092668D /* CMBaseViewController.m */; };
+		315990C522CE4BA80092668D /* CMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315990C422CE4BA80092668D /* CMBaseNavigationController.m */; };
+		315990C822CE4BDB0092668D /* CMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315990C722CE4BDB0092668D /* CMTabBarController.m */; };
 		3173ACAF22C50EA5003E2F2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3173ACAE22C50EA5003E2F2D /* AppDelegate.m */; };
 		3173ACB222C50EA5003E2F2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3173ACB122C50EA5003E2F2D /* ViewController.m */; };
 		3173ACB522C50EA5003E2F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3173ACB322C50EA5003E2F2D /* Main.storyboard */; };
@@ -181,6 +184,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		315990C022CE4B770092668D /* CMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMBaseViewController.h; sourceTree = "<group>"; };
+		315990C122CE4B770092668D /* CMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMBaseViewController.m; sourceTree = "<group>"; };
+		315990C322CE4BA80092668D /* CMBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMBaseNavigationController.h; sourceTree = "<group>"; };
+		315990C422CE4BA80092668D /* CMBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMBaseNavigationController.m; sourceTree = "<group>"; };
+		315990C622CE4BDB0092668D /* CMTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMTabBarController.h; sourceTree = "<group>"; };
+		315990C722CE4BDB0092668D /* CMTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMTabBarController.m; sourceTree = "<group>"; };
+		315990C922CE4D780092668D /* KeyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyHeader.h; sourceTree = "<group>"; };
+		315990CA22CE4DD20092668D /* AppHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppHeader.h; sourceTree = "<group>"; };
 		3173ACAA22C50EA5003E2F2D /* XL_ChangMai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XL_ChangMai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3173ACAD22C50EA5003E2F2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3173ACAE22C50EA5003E2F2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -614,6 +625,8 @@
 				3173ACB822C50EA6003E2F2D /* LaunchScreen.storyboard */,
 				3173ACBB22C50EA6003E2F2D /* Info.plist */,
 				3173ACBC22C50EA6003E2F2D /* main.m */,
+				315990C922CE4D780092668D /* KeyHeader.h */,
+				315990CA22CE4DD20092668D /* AppHeader.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -628,6 +641,12 @@
 		3173ACCC22C50F77003E2F2D /* BasicClass */ = {
 			isa = PBXGroup;
 			children = (
+				315990C022CE4B770092668D /* CMBaseViewController.h */,
+				315990C122CE4B770092668D /* CMBaseViewController.m */,
+				315990C322CE4BA80092668D /* CMBaseNavigationController.h */,
+				315990C422CE4BA80092668D /* CMBaseNavigationController.m */,
+				315990C622CE4BDB0092668D /* CMTabBarController.h */,
+				315990C722CE4BDB0092668D /* CMTabBarController.m */,
 			);
 			path = BasicClass;
 			sourceTree = "<group>";
@@ -710,6 +729,7 @@
 				3173ACA622C50EA5003E2F2D /* Sources */,
 				3173ACA722C50EA5003E2F2D /* Frameworks */,
 				3173ACA822C50EA5003E2F2D /* Resources */,
+				AFADC32F6B732975F1CDC919 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -930,6 +950,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		AFADC32F6B732975F1CDC919 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XL_ChangMai/Pods-XL_ChangMai-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XL_ChangMai/Pods-XL_ChangMai-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XL_ChangMai/Pods-XL_ChangMai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CE946B95E0F85B7E70D63114 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -956,8 +993,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3173ACB222C50EA5003E2F2D /* ViewController.m in Sources */,
+				315990C822CE4BDB0092668D /* CMTabBarController.m in Sources */,
+				315990C522CE4BA80092668D /* CMBaseNavigationController.m in Sources */,
 				3173ACBD22C50EA6003E2F2D /* main.m in Sources */,
 				3173ACAF22C50EA5003E2F2D /* AppDelegate.m in Sources */,
+				315990C222CE4B770092668D /* CMBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1104,7 +1144,10 @@
 				DEVELOPMENT_TEAM = 5XH837PT9T;
 				INFOPLIST_FILE = XL_ChangMai/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lixiaolong.XL-ChangMai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1120,7 +1163,10 @@
 				DEVELOPMENT_TEAM = 5XH837PT9T;
 				INFOPLIST_FILE = XL_ChangMai/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lixiaolong.XL-ChangMai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

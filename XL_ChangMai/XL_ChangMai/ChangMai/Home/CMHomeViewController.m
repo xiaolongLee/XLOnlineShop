@@ -1,19 +1,18 @@
 //
-//  CMTabBarController.m
+//  CMHomeViewController.m
 //  XL_ChangMai
 //
-//  Created by 李小龙 on 2019/7/4.
+//  Created by 李小龙 on 2019/7/5.
 //  Copyright © 2019 李小龙. All rights reserved.
 //
 
-#import "CMTabBarController.h"
-#import "CMBaseViewController.h"
 #import "CMHomeViewController.h"
-@interface CMTabBarController ()
+
+@interface CMHomeViewController ()
 
 @end
 
-@implementation CMTabBarController
+@implementation CMHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

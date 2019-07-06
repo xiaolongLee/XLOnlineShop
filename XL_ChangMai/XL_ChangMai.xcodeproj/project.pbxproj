@@ -181,6 +181,9 @@
 		3173AE1622C51017003E2F2D /* back_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3173AD7222C51017003E2F2D /* back_arrow@2x.png */; };
 		3173AE1722C51017003E2F2D /* home_stores_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3173AD7322C51017003E2F2D /* home_stores_top@2x.png */; };
 		3173AE1822C51017003E2F2D /* my_icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3173AD7422C51017003E2F2D /* my_icon1@2x.png */; };
+		319FC7C722CF988C006C1B88 /* CMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC7C622CF988C006C1B88 /* CMHomeViewController.m */; };
+		319FC7CA22CFA0CF006C1B88 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC7C922CFA0CF006C1B88 /* UIColor+Extension.m */; };
+		319FC7CD22D0E494006C1B88 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC7CC22D0E494006C1B88 /* UIButton+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -366,6 +369,13 @@
 		3173AD7222C51017003E2F2D /* back_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_arrow@2x.png"; sourceTree = "<group>"; };
 		3173AD7322C51017003E2F2D /* home_stores_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_stores_top@2x.png"; sourceTree = "<group>"; };
 		3173AD7422C51017003E2F2D /* my_icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_icon1@2x.png"; sourceTree = "<group>"; };
+		319FC7C422CF953D006C1B88 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		319FC7C522CF988C006C1B88 /* CMHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMHomeViewController.h; sourceTree = "<group>"; };
+		319FC7C622CF988C006C1B88 /* CMHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMHomeViewController.m; sourceTree = "<group>"; };
+		319FC7C822CFA0CF006C1B88 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		319FC7C922CFA0CF006C1B88 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		319FC7CB22D0E494006C1B88 /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		319FC7CC22D0E494006C1B88 /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		379F79A6744AA17087B0E1EE /* Pods-XL_ChangMai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XL_ChangMai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XL_ChangMai/Pods-XL_ChangMai.debug.xcconfig"; sourceTree = "<group>"; };
 		5353B7CACD4183D6031468CD /* Pods-XL_ChangMai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XL_ChangMai.release.xcconfig"; path = "Pods/Target Support Files/Pods-XL_ChangMai/Pods-XL_ChangMai.release.xcconfig"; sourceTree = "<group>"; };
 		F9673D7226F8B7DE618C2464 /* libPods-XL_ChangMai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XL_ChangMai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -583,6 +593,8 @@
 		3173ACC522C50F77003E2F2D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				319FC7C522CF988C006C1B88 /* CMHomeViewController.h */,
+				319FC7C622CF988C006C1B88 /* CMHomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -597,6 +609,10 @@
 		3173ACC722C50F77003E2F2D /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				319FC7C822CFA0CF006C1B88 /* UIColor+Extension.h */,
+				319FC7C922CFA0CF006C1B88 /* UIColor+Extension.m */,
+				319FC7CB22D0E494006C1B88 /* UIButton+Extension.h */,
+				319FC7CC22D0E494006C1B88 /* UIButton+Extension.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -627,6 +643,7 @@
 				3173ACBC22C50EA6003E2F2D /* main.m */,
 				315990C922CE4D780092668D /* KeyHeader.h */,
 				315990CA22CE4DD20092668D /* AppHeader.h */,
+				319FC7C422CF953D006C1B88 /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -995,9 +1012,12 @@
 				3173ACB222C50EA5003E2F2D /* ViewController.m in Sources */,
 				315990C822CE4BDB0092668D /* CMTabBarController.m in Sources */,
 				315990C522CE4BA80092668D /* CMBaseNavigationController.m in Sources */,
+				319FC7CA22CFA0CF006C1B88 /* UIColor+Extension.m in Sources */,
 				3173ACBD22C50EA6003E2F2D /* main.m in Sources */,
 				3173ACAF22C50EA5003E2F2D /* AppDelegate.m in Sources */,
 				315990C222CE4B770092668D /* CMBaseViewController.m in Sources */,
+				319FC7CD22D0E494006C1B88 /* UIButton+Extension.m in Sources */,
+				319FC7C722CF988C006C1B88 /* CMHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,6 +1084,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "XL_ChangMai/ChangMai/Supporting Files/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1121,6 +1142,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "XL_ChangMai/ChangMai/Supporting Files/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1142,7 +1164,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5XH837PT9T;
-				INFOPLIST_FILE = XL_ChangMai/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/XL_ChangMai/ChangMai/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1161,7 +1183,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5XH837PT9T;
-				INFOPLIST_FILE = XL_ChangMai/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/XL_ChangMai/ChangMai/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CMTabBarController : UITabBarController
-
+- (void)updateTabNavigationRootController:(UINavigationController *)vController;
+- (void)pushOrderDetailViewController:(NSString *)orderId;
 @end
 
 NS_ASSUME_NONNULL_END

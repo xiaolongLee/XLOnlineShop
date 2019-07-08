@@ -29,8 +29,39 @@
     // 监听按钮点击
     [button addTarget:self action:@selector(back:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-    self.navigationController.interactivePopGestureRecognizer.delegate = self;
+    //设置滑动返回的delegate
+    self.navigationController.interactivePopGestureRecognizer.delegate = (id)self;
     
+}
+
+- (void)createTableViewFrame:(CGRect)tableViewFrame Style:(UITableViewStyle)tableViewStyle {
+    
+    self.tableView = [[UITableView alloc] initWithFrame:tableViewFrame style:tableViewStyle];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.backgroundColor = [UIColor clearColor];
+    self.tableView.tableFooterView = [[UIView alloc] init];
+    [self.view addSubview:_tableView];
+
+}
+
+- (void)back:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+#pragma mark tableView delegate And datasource
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 0;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
+    return cell;
 }
 
 /*

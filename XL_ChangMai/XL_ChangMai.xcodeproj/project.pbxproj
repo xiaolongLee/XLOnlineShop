@@ -184,6 +184,13 @@
 		319FC7C722CF988C006C1B88 /* CMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC7C622CF988C006C1B88 /* CMHomeViewController.m */; };
 		319FC7CA22CFA0CF006C1B88 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC7C922CFA0CF006C1B88 /* UIColor+Extension.m */; };
 		319FC7CD22D0E494006C1B88 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC7CC22D0E494006C1B88 /* UIButton+Extension.m */; };
+		31B564CE22D38B64002FF0A5 /* CMStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B564CD22D38B64002FF0A5 /* CMStoreViewController.m */; };
+		31B564D122D38BC0002FF0A5 /* CMDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B564D022D38BC0002FF0A5 /* CMDiscoverViewController.m */; };
+		31B564D422D38BD7002FF0A5 /* CMShopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B564D322D38BD7002FF0A5 /* CMShopCarViewController.m */; };
+		31B564D722D38BEF002FF0A5 /* CMMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B564D622D38BEF002FF0A5 /* CMMeViewController.m */; };
+		31B564DA22D38C10002FF0A5 /* CMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B564D922D38C10002FF0A5 /* CMLoginViewController.m */; };
+		31B564DD22D38C33002FF0A5 /* CMStoreGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B564DC22D38C33002FF0A5 /* CMStoreGoodsViewController.m */; };
+		31B564E022D38C81002FF0A5 /* CMOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B564DF22D38C81002FF0A5 /* CMOrderDetailViewController.m */; };
 		31F366F422D2440100EA707A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F366F222D2440100EA707A /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
@@ -377,6 +384,20 @@
 		319FC7C922CFA0CF006C1B88 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		319FC7CB22D0E494006C1B88 /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		319FC7CC22D0E494006C1B88 /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		31B564CC22D38B64002FF0A5 /* CMStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMStoreViewController.h; sourceTree = "<group>"; };
+		31B564CD22D38B64002FF0A5 /* CMStoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMStoreViewController.m; sourceTree = "<group>"; };
+		31B564CF22D38BC0002FF0A5 /* CMDiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMDiscoverViewController.h; sourceTree = "<group>"; };
+		31B564D022D38BC0002FF0A5 /* CMDiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMDiscoverViewController.m; sourceTree = "<group>"; };
+		31B564D222D38BD7002FF0A5 /* CMShopCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMShopCarViewController.h; sourceTree = "<group>"; };
+		31B564D322D38BD7002FF0A5 /* CMShopCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMShopCarViewController.m; sourceTree = "<group>"; };
+		31B564D522D38BEF002FF0A5 /* CMMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMMeViewController.h; sourceTree = "<group>"; };
+		31B564D622D38BEF002FF0A5 /* CMMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMMeViewController.m; sourceTree = "<group>"; };
+		31B564D822D38C10002FF0A5 /* CMLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMLoginViewController.h; sourceTree = "<group>"; };
+		31B564D922D38C10002FF0A5 /* CMLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMLoginViewController.m; sourceTree = "<group>"; };
+		31B564DB22D38C33002FF0A5 /* CMStoreGoodsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMStoreGoodsViewController.h; sourceTree = "<group>"; };
+		31B564DC22D38C33002FF0A5 /* CMStoreGoodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMStoreGoodsViewController.m; sourceTree = "<group>"; };
+		31B564DE22D38C81002FF0A5 /* CMOrderDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMOrderDetailViewController.h; sourceTree = "<group>"; };
+		31B564DF22D38C81002FF0A5 /* CMOrderDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMOrderDetailViewController.m; sourceTree = "<group>"; };
 		31F366F222D2440100EA707A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		31F366F322D2440100EA707A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		379F79A6744AA17087B0E1EE /* Pods-XL_ChangMai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XL_ChangMai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XL_ChangMai/Pods-XL_ChangMai.debug.xcconfig"; sourceTree = "<group>"; };
@@ -605,6 +626,8 @@
 		3173ACC622C50F77003E2F2D /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				31B564CF22D38BC0002FF0A5 /* CMDiscoverViewController.h */,
+				31B564D022D38BC0002FF0A5 /* CMDiscoverViewController.m */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -625,6 +648,8 @@
 		3173ACC822C50F77003E2F2D /* LoginRegist */ = {
 			isa = PBXGroup;
 			children = (
+				31B564D822D38C10002FF0A5 /* CMLoginViewController.h */,
+				31B564D922D38C10002FF0A5 /* CMLoginViewController.m */,
 			);
 			path = LoginRegist;
 			sourceTree = "<group>";
@@ -632,6 +657,8 @@
 		3173ACC922C50F77003E2F2D /* ShopCar */ = {
 			isa = PBXGroup;
 			children = (
+				31B564D222D38BD7002FF0A5 /* CMShopCarViewController.h */,
+				31B564D322D38BD7002FF0A5 /* CMShopCarViewController.m */,
 			);
 			path = ShopCar;
 			sourceTree = "<group>";
@@ -656,6 +683,10 @@
 		3173ACCB22C50F77003E2F2D /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				31B564D522D38BEF002FF0A5 /* CMMeViewController.h */,
+				31B564D622D38BEF002FF0A5 /* CMMeViewController.m */,
+				31B564DE22D38C81002FF0A5 /* CMOrderDetailViewController.h */,
+				31B564DF22D38C81002FF0A5 /* CMOrderDetailViewController.m */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -692,6 +723,10 @@
 		3173ACCF22C50F77003E2F2D /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				31B564CC22D38B64002FF0A5 /* CMStoreViewController.h */,
+				31B564CD22D38B64002FF0A5 /* CMStoreViewController.m */,
+				31B564DB22D38C33002FF0A5 /* CMStoreGoodsViewController.h */,
+				31B564DC22D38C33002FF0A5 /* CMStoreGoodsViewController.m */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -1017,6 +1052,10 @@
 				31F366F422D2440100EA707A /* UIView+Extension.m in Sources */,
 				3173ACB222C50EA5003E2F2D /* ViewController.m in Sources */,
 				315990C822CE4BDB0092668D /* CMTabBarController.m in Sources */,
+				31B564D122D38BC0002FF0A5 /* CMDiscoverViewController.m in Sources */,
+				31B564D722D38BEF002FF0A5 /* CMMeViewController.m in Sources */,
+				31B564DA22D38C10002FF0A5 /* CMLoginViewController.m in Sources */,
+				31B564E022D38C81002FF0A5 /* CMOrderDetailViewController.m in Sources */,
 				315990C522CE4BA80092668D /* CMBaseNavigationController.m in Sources */,
 				319FC7CA22CFA0CF006C1B88 /* UIColor+Extension.m in Sources */,
 				3173ACBD22C50EA6003E2F2D /* main.m in Sources */,
@@ -1024,6 +1063,9 @@
 				315990C222CE4B770092668D /* CMBaseViewController.m in Sources */,
 				319FC7CD22D0E494006C1B88 /* UIButton+Extension.m in Sources */,
 				319FC7C722CF988C006C1B88 /* CMHomeViewController.m in Sources */,
+				31B564CE22D38B64002FF0A5 /* CMStoreViewController.m in Sources */,
+				31B564D422D38BD7002FF0A5 /* CMShopCarViewController.m in Sources */,
+				31B564DD22D38C33002FF0A5 /* CMStoreGoodsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

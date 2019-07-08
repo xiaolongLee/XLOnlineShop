@@ -19,6 +19,27 @@
     // Do any additional setup after loading the view.
 }
 
+
+/**
+ *  能拦截所有push进来的子控制器
+ */
+
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    
+    if (self.viewControllers.count > 0) {
+        //如果现在push的不是栈底控制器(最先push进来的那个控制器)
+        viewController.hidesBottomBarWhenPushed = YES;
+    }else{
+        viewController.hidesBottomBarWhenPushed = NO;
+    }
+    
+    [super pushViewController:viewController animated:animated];
+}
+
+- (void)more{
+    [self popToRootViewControllerAnimated:YES];
+}
+
 /*
 #pragma mark - Navigation
 

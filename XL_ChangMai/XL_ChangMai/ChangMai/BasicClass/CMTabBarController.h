@@ -13,6 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CMTabBarController : UITabBarController
 - (void)updateTabNavigationRootController:(UINavigationController *)vController;
 - (void)pushOrderDetailViewController:(NSString *)orderId;
+
+/**  记录订单id，支付回调，跳转到订单详情 */
+@property(nonatomic,copy)NSString *orderNO;
 @end
 
 NS_ASSUME_NONNULL_END

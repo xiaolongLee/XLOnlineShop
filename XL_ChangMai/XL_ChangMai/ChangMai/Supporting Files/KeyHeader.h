@@ -9,5 +9,6 @@
 #ifndef ALLSTAR_KeyHeader_h
 #define ALLSTAR_KeyHeader_h
 #import "UIColor+Extension.h"
-
+#import "UIButton+Extension.h"
+#import "UIView+Extension.h"
 #endif /* KeyHeader_h */

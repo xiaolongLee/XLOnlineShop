@@ -25,7 +25,11 @@
     [button setBackgroundImage:[UIImage imageNamed:@"back_arrow"] forState:UIControlStateNormal];
     button.frame = CGRectMake(0, 0, 40, 44);
     // 设置按钮的尺寸为背景图片的尺寸
-//    button.size = button.currentBackgroundImage.size;
+    button.size = button.currentBackgroundImage.size;
+    // 监听按钮点击
+    [button addTarget:self action:@selector(back:) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    self.navigationController.interactivePopGestureRecognizer.delegate = self;
     
 }
 

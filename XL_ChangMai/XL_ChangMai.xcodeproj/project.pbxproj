@@ -184,6 +184,7 @@
 		319FC7C722CF988C006C1B88 /* CMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC7C622CF988C006C1B88 /* CMHomeViewController.m */; };
 		319FC7CA22CFA0CF006C1B88 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC7C922CFA0CF006C1B88 /* UIColor+Extension.m */; };
 		319FC7CD22D0E494006C1B88 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC7CC22D0E494006C1B88 /* UIButton+Extension.m */; };
+		31F366F422D2440100EA707A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F366F222D2440100EA707A /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -376,6 +377,8 @@
 		319FC7C922CFA0CF006C1B88 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		319FC7CB22D0E494006C1B88 /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		319FC7CC22D0E494006C1B88 /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		31F366F222D2440100EA707A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		31F366F322D2440100EA707A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		379F79A6744AA17087B0E1EE /* Pods-XL_ChangMai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XL_ChangMai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XL_ChangMai/Pods-XL_ChangMai.debug.xcconfig"; sourceTree = "<group>"; };
 		5353B7CACD4183D6031468CD /* Pods-XL_ChangMai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XL_ChangMai.release.xcconfig"; path = "Pods/Target Support Files/Pods-XL_ChangMai/Pods-XL_ChangMai.release.xcconfig"; sourceTree = "<group>"; };
 		F9673D7226F8B7DE618C2464 /* libPods-XL_ChangMai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XL_ChangMai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -609,6 +612,8 @@
 		3173ACC722C50F77003E2F2D /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				31F366F322D2440100EA707A /* UIView+Extension.h */,
+				31F366F222D2440100EA707A /* UIView+Extension.m */,
 				319FC7C822CFA0CF006C1B88 /* UIColor+Extension.h */,
 				319FC7C922CFA0CF006C1B88 /* UIColor+Extension.m */,
 				319FC7CB22D0E494006C1B88 /* UIButton+Extension.h */,
@@ -1009,6 +1014,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F366F422D2440100EA707A /* UIView+Extension.m in Sources */,
 				3173ACB222C50EA5003E2F2D /* ViewController.m in Sources */,
 				315990C822CE4BDB0092668D /* CMTabBarController.m in Sources */,
 				315990C522CE4BA80092668D /* CMBaseNavigationController.m in Sources */,

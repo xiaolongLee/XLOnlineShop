@@ -7,16 +7,30 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CMTabBarController.h"
+#import "IQKeyboardManager.h"
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    _isFirstTime = YES;
+    return YES;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [CMTabBarController new];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self setupNavBar];
+    
     return YES;
 }
 
@@ -45,6 +59,28 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)initKeyboardManager {
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
+    manager.enableAutoToolbar = NO;
+}
+
+
+- (void)setupNavBar {
+    
+    [UIApplication  sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+    UINavigationBar *bar = [UINavigationBar appearance];
+    //    CGFloat rgb = 0.1;
+    //    bar.barTintColor = [UIColor colorWithRed:rgb green:rgb blue:rgb alpha:0.9];
+    bar.barTintColor = [UIColor whiteColor];
+    bar.tintColor = [UIColor whiteColor];
+    bar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor blackColor]};
+    
 }
 
 

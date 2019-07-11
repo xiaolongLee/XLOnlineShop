@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
   - BaiduMapKit (3.4.4)
+  - IQKeyboardManager (3.3.7)
   - MJRefresh (3.1.15.3)
   - pop (1.0.10)
   - Reachability (3.2)
@@ -26,6 +27,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.2.0)
   - BaiduMapKit
+  - IQKeyboardManager (~> 3.3.7)
   - MJRefresh
   - pop
   - Reachability
@@ -36,6 +38,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - BaiduMapKit
+    - IQKeyboardManager
     - MJRefresh
     - pop
     - Reachability
@@ -45,12 +48,13 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   BaiduMapKit: 4ac88f5a363500760392825b69709f4a0125f81e
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: bae9d96e99df6e86489f13f61451055902884a88
+PODFILE CHECKSUM: 23ae49f168c5765991feb50c4d46c444e15e36b0
 
 COCOAPODS: 1.7.3

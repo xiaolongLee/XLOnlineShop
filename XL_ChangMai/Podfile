@@ -8,4 +8,5 @@ pod 'SDWebImage'
 pod 'Reachability'
 pod 'BaiduMapKit'
 pod 'IQKeyboardManager', '~>3.3.7'
+pod 'SDAutoLayout'
 end

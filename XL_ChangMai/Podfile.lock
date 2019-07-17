@@ -19,6 +19,7 @@ PODS:
   - MJRefresh (3.1.15.3)
   - pop (1.0.10)
   - Reachability (3.2)
+  - SDAutoLayout (2.2.0)
   - SDWebImage (4.3.3):
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
@@ -31,6 +32,7 @@ DEPENDENCIES:
   - MJRefresh
   - pop
   - Reachability
+  - SDAutoLayout
   - SDWebImage
   - YYCache
 
@@ -42,6 +44,7 @@ SPEC REPOS:
     - MJRefresh
     - pop
     - Reachability
+    - SDAutoLayout
     - SDWebImage
     - YYCache
 
@@ -52,9 +55,10 @@ SPEC CHECKSUMS:
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 23ae49f168c5765991feb50c4d46c444e15e36b0
+PODFILE CHECKSUM: 54e3cfa46631c1ab6ec2081f9e41848c8510ee83
 
 COCOAPODS: 1.7.3

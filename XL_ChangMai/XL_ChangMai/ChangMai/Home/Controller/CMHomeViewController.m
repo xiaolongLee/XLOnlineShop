@@ -10,6 +10,8 @@
 #import "SDCycleScrollView.h"           //轮播图
 #import "CMTabBarController.h"
 #import "CMStoreViewController.h"
+#import "XLGoodsCollectionViewCell.h"
+#import "CMHotCellView.h"
 //#import "CMSearchGoodViewController.h"
 #import "CMStoreGoodsViewController.h"
 //#import "CMGoodSetViewController.h"

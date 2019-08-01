@@ -1,18 +1,18 @@
 //
-//  CMDiscoverViewController.m
+//  CMSettleViewController.m
 //  XL_ChangMai
 //
-//  Created by 李小龙 on 2019/7/8.
+//  Created by 李小龙 on 2019/8/1.
 //  Copyright © 2019 李小龙. All rights reserved.
 //
 
-#import "CMDiscoverViewController.h"
+#import "CMSettleViewController.h"
 
-@interface CMDiscoverViewController ()
+@interface CMSettleViewController ()
 
 @end
 
-@implementation CMDiscoverViewController
+@implementation CMSettleViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

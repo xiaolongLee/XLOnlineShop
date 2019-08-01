@@ -1,18 +1,18 @@
 //
-//  CMLoginViewController.m
+//  CMSearchGoodViewController.m
 //  XL_ChangMai
 //
-//  Created by 李小龙 on 2019/7/8.
+//  Created by 李小龙 on 2019/7/19.
 //  Copyright © 2019 李小龙. All rights reserved.
 //
 
-#import "CMLoginViewController.h"
+#import "CMSearchGoodViewController.h"
 
-@interface CMLoginViewController ()
+@interface CMSearchGoodViewController ()
 
 @end
 
-@implementation CMLoginViewController
+@implementation CMSearchGoodViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

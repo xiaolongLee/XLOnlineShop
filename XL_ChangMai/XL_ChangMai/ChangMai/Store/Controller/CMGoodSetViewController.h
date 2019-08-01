@@ -1,8 +1,8 @@
 //
-//  CMStoreGoodsViewController.h
+//  CMGoodSetViewController.h
 //  XL_ChangMai
 //
-//  Created by 李小龙 on 2019/7/8.
+//  Created by 李小龙 on 2019/7/19.
 //  Copyright © 2019 李小龙. All rights reserved.
 //
 
@@ -10,7 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CMStoreGoodsViewController : CMBaseViewController
+@interface CMGoodSetViewController : CMBaseViewController
+@property(nonatomic,assign)long long goodId;
 @property(nonatomic,assign)long long storeId;
 @end
 

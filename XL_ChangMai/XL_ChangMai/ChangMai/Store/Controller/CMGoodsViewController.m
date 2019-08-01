@@ -1,18 +1,18 @@
 //
-//  CMShopCarViewController.m
+//  CMGoodsViewController.m
 //  XL_ChangMai
 //
-//  Created by 李小龙 on 2019/7/8.
+//  Created by 李小龙 on 2019/7/19.
 //  Copyright © 2019 李小龙. All rights reserved.
 //
 
-#import "CMShopCarViewController.h"
+#import "CMGoodsViewController.h"
 
-@interface CMShopCarViewController ()
+@interface CMGoodsViewController ()
 
 @end
 
-@implementation CMShopCarViewController
+@implementation CMGoodsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -11,6 +11,7 @@
 @implementation UIButton (Extension)
 - (void)setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state
 {
+    self.backgroundColor = backgroundColor;
     
 }
 
@@ -37,6 +38,7 @@
     self.titleLabel.font = Font(14);
     [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self setBackgroundColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    
     self.adjustsImageWhenHighlighted = NO;
     
 }

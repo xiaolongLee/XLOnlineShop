@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CMOrderDetailViewController : CMBaseViewController
-
+@property (nonatomic,strong) NSString *soNo;
 @end
 
 NS_ASSUME_NONNULL_END

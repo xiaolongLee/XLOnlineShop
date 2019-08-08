@@ -11,7 +11,16 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CMSettleViewController : CMBaseViewController
-
+/**  1.商品详情直接购买 */
+@property (nonatomic,assign) int sourceType;
+/**  商品详情直接购买商品的ID */
+@property (nonatomic,strong) NSString  *cart_Id;
+/**  商品 */
+@property (nonatomic,strong) NSArray *goodsArr;
+/**  门店编号 */
+@property(nonatomic,assign)long long storeId;
+/**  门店地址 */
+@property(nonatomic,assign)NSString *storeAddress;
 @end
 
 NS_ASSUME_NONNULL_END

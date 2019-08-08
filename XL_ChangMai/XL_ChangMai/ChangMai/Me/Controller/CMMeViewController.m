@@ -7,8 +7,15 @@
 //
 
 #import "CMMeViewController.h"
-#import "CMProfileViewController.h"
+#import "CMAccountViewController.h"
+#import "CMMessageViewController.h"
+#import "CMFavoriteViewController.h"
+#import "CMOrderListViewController.h"
+#import "CMBalanceViewController.h"
 #import "CMLoginViewController.h"
+#import "CMAddressListViewController.h"
+#import "CMProfileViewController.h"
+#import "CMCouponViewController.h"
 #import "LoginUser.h"
 @interface CMMeViewController ()
 /** 背景图片 */
